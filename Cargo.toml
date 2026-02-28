@@ -1,0 +1,16 @@
+[package]
+name = "ir-collector"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+comfy-table = "7.2"
+sysinfo = "0.30"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+tokio = { version = "1", features = ["full"] }
+walkdir = "2"
+winreg = "0.52"
