@@ -14,3 +14,4 @@ thiserror = "1"
 tokio = { version = "1", features = ["full"] }
 walkdir = "2"
 winreg = "0.52"
+netstat2 = "0.11"

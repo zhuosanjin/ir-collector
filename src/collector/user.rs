@@ -7,9 +7,9 @@ pub struct UsersInfo {
 }
 
 pub struct UserInfo {
+    pub name: String,
     pub uid: String,
     pub gid: u32,
-    pub name: String,
 }
 
 impl UsersInfo {
